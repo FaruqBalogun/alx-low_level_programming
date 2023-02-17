@@ -11,7 +11,7 @@ int main(void)
 	{
 		putchar (la);
 	}
-	for (lc != 'q' && lc != 'e''\n')
+	for (lc != 'e' && lc != 'q''\n')
 	{
 		putchar (la);
 	}
