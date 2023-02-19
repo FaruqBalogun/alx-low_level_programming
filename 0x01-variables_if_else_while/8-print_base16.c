@@ -6,11 +6,11 @@
 int main(void)
 {
 	int i;
-	char hv[16] = "0123456789abcdef";
+	char hv[] = "0123456789abcdef";
 
-	for (i = '0'; i < 16; i++)
+	for (i = 0; i < 16; i++)
 	{
-		putchar(hv[16]);
+		putchar(hv[i]);
 	}
 	putchar('\n');
 	return (0);
