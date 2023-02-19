@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	char lc;
+	char i;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 
-		if (lc == 'e' || lc == 'q')
+		if (i == 'e' || i == 'q')
 			continue;
-			putchar(la);
+			putchar(i);
 	}
 
 	putchar('\n');
