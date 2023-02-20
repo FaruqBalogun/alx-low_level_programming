@@ -5,34 +5,22 @@
  */
 int main(void)
 {
-	int i;
-	int k = '0';
-	int j;
+	int d, p;
 
-	for (i = '0'; i <= '9'; i++)
+	for (d = '0' d < '9'; d++)
 	{
-		for (j = k; j <= '9'; i++)
-		{
-			if (i != j)
-			{
-				putchar(i);
-				putchar(j);
-			}
-			if (i == j)
-			{
-				continue;
-			}
-			if (i == '8' && j == '9')
-			{
-				continue;
-			}
-			else
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-		k++;
+	for (p = d + 1; p <= '0'; p++)
+	{
+	if (p != d)
+	{
+		putchar(d);
+		putchar(p);
+	if (d == '8' && p == '9')
+		continue;
+		putchar(',');
+		putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
