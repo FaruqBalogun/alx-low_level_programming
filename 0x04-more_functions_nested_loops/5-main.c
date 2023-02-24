@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	ore_numbers();
+	more_numbers();
 	return (0);
 }
