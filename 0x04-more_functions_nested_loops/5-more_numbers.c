@@ -5,7 +5,7 @@
  * Return: 10 times of the numbers since 0 up to 14
  */
 
-int more_numbers(void)
+void more_numbers(void)
 {
 	int x, y;
 
