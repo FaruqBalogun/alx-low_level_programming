@@ -1,4 +1,4 @@
-#include "main.h"
+iinclude "main.h"
 
 /**
  * main - check the code for
@@ -11,7 +11,7 @@ int main(void)
 	array[0] = 98;
 	array[1] = 402;
 	array[2] = -198;
-	rray[3] = 298;
+	array[3] = 298;
 	array[4] = -1024;
 	print_array(array, 5);
 	return (0);
