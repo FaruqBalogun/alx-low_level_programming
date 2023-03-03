@@ -3,12 +3,11 @@
 
 /**
  * rot13 - encoder rot13
- * @s: Pointer to string parameter
+ * @s: Pointer to string params
  * Return: *s
  */
 
 char *rot13(char *s)
-
 {
 	int i;
 	int j;
@@ -21,7 +20,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == data1[j])
 			{
-				s[i] == datarot[j];
+				s[i] = datarot[j];
 				break;
 			}
 
